@@ -34,7 +34,6 @@
 /* regole per tutte le classi col- */
 [class*="col-"] {
     float: left;
-    border: 2px solid red;
 }
 
 /* responsive on large screen */
@@ -119,7 +118,7 @@
 
 
 /* responsive on medium screen */
-@media screen and (min-width: 421px),
+@media screen and (min-width: 421px) and
 (max-width: 991px) {
     .col-md-1 {
         width: calc( ( 100% / 12) * 1 );

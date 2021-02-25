@@ -1,8 +1,30 @@
+header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+main h3 {
+  margin: 10px 0;
+}
+
 .row {
-  max-width: 992px;
+  /* max-width: 992px; */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin: 50px;
+}
+
+#lezioni, #steps, #why {
+  text-align: center;
+}
+
+#steps, #why {
+  background-color: #f9f9f9;
 }
 
 /* BLOCCO LEZIONI */
@@ -13,10 +35,6 @@
   margin-left: auto;
 }
 
-#lezioni {
-  text-align: center;
-}
-
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
@@ -25,17 +43,7 @@
   width: 33%;
 }
 
-#steps {
-  text-align: center;
-  background-color: #f9f9f9;
-}
-
 /* BLOCCO PERCHE */
-#why {
-  text-align: center;
-  background-color: #f9f9f9;
-}
-
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
@@ -62,4 +70,34 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (min-width: 992px) {
+
+#why [class*="col-"] {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 421px) and
+(max-width: 991px) {
+  img {
+    height: 130px;
+    width: auto;
+  }
+
+  [class*="col-"] {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  img {
+    height: 100px;
+    width: auto;
+  }
+
+  [class*="col-"] {
+    padding: 10px 20px;
+  }
 }
