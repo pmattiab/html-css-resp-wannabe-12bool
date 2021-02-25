@@ -6,12 +6,6 @@
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-}
-
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -33,11 +27,13 @@
 
 #steps {
   text-align: center;
+  background-color: #f9f9f9;
 }
 
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
+  background-color: #f9f9f9;
 }
 
 #why .row>.first,
@@ -58,10 +54,6 @@
   content: '';
   display: table;
   clear: both;
-}
-
-.container.grey {
-  background-color: #f9f9f9;
 }
 
 img {
