@@ -81,6 +81,7 @@ img {
 
 @media screen and (min-width: 421px) and
 (max-width: 991px) {
+  
   img {
     height: 130px;
     width: auto;
@@ -92,6 +93,7 @@ img {
 }
 
 @media screen and (max-width: 420px) {
+  
   img {
     height: 100px;
     width: auto;
