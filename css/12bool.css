@@ -37,7 +37,7 @@
 }
 
 /* responsive on large screen */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1170px) {
     .col-lg-1 {
         width: calc( ( 100% / 12) * 1 );
     }
@@ -118,8 +118,8 @@
 
 
 /* responsive on medium screen */
-@media screen and (min-width: 421px) and
-(max-width: 991px) {
+@media screen and (min-width: 501px) and
+(max-width: 1169px) {
     .col-md-1 {
         width: calc( ( 100% / 12) * 1 );
     }
@@ -199,7 +199,7 @@
 }
 
 /* responsive on small screen */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
     .col-xs-1 {
         width: calc( ( 100% / 12) * 1 );
     }
